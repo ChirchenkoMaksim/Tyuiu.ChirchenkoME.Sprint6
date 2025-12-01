@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Task0/">
+    <Project Path="Tyuiu.ChirchenkoME.Sprint6.Task0.V21.Lib/Tyuiu.ChirchenkoME.Sprint6.Task0.V21.Lib.csproj" />
+    <Project Path="Tyuiu.ChirchenkoME.Sprint6.Task0.V21.Test/Tyuiu.ChirchenkoME.Sprint6.Task0.V21.Test.csproj" />
+    <Project Path="Tyuiu.ChirchenkoME.Sprint6.Task0.V21/Tyuiu.ChirchenkoME.Sprint6.Task0.V21.csproj" />
+  </Folder>
+  <Folder Name="/Task1/" />
+  <Folder Name="/Task2/" />
+  <Folder Name="/Task3/" />
+  <Folder Name="/Task4/" />
+  <Folder Name="/Task5/" />
+  <Folder Name="/Task6/" />
+  <Folder Name="/Task7/" />
+</Solution>
