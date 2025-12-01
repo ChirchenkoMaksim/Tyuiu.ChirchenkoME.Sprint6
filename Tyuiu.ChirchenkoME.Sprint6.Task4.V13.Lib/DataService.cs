@@ -12,15 +12,18 @@ namespace Tyuiu.ChirchenkoME.Sprint6.Task4.V13.Lib
             {
                 int x = startValue + i;
                 double result;
-                if (Math.Cos(x) + 1 == 0)
+                // use a tolerance for floating-point comparison
+                if (System.Math.Abs(System.Math.Cos(x) + 1) < 1e-12)
                 {
                     result = 0;
                 }
                 else
                 {
-                    result = 3 * x + 2 - (2 * x - x / (Math.Cos(x) + 1));
+                    // Corrected grouping: the denominator should apply to (2x - x) which simplifies to x,
+                    // so the intended expression is: 3*x + 2 - x / (cos(x) + 1)
+                    result = 3 * x + 2 - x / (System.Math.Cos(x) + 1);
                 }
-                results[i] = Math.Round(result, 2);
+                results[i] = System.Math.Round(result, 2);
             }
             return results;
         }
