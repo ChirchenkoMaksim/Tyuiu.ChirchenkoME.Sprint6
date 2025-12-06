@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.ChirchenkoME.Sprint6.Task7.V3.Lib\Tyuiu.ChirchenkoME.Sprint6.Task7.V3.Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="tyuiu.cources.programming.interfaces">
       <HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
